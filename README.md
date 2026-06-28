@@ -9,6 +9,8 @@ und veröffentlicht sie via MQTT für Home Assistant.
 - `baudrate`: Baudrate (Standard: `9600`)
 - `mqtt_host`: MQTT Broker Host (Standard: `homeassistant`)
 - `mqtt_port`: MQTT Broker Port (Standard: `1883`)
+- `mqtt_user`: MQTT Broker User (Standard: `homeassistant`)
+- `mqtt_pass`: MQTT Broker Pass (Standard: `meinMQTTpasswort123`)
 
 ## MQTT Topics
 
