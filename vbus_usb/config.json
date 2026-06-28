@@ -1,6 +1,6 @@
 {
   "name": "VBus USB Reader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "slug": "vbus_usb",
   "description": "Reads Resol VBus data from USB and publishes via MQTT",
   "arch": ["aarch64"],
