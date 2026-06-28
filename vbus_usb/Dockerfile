@@ -1,8 +1,8 @@
-FROM python:3.11-slim
+FROM ghcr.io/home-assistant/amd64-base:latest
 
-RUN apt-get update && \
-    apt-get install -y python3-pip && \
-    pip install paho-mqtt pyserial resol-vbus
+RUN apk add --no-cache python3 py3-pip py3-serial
+
+RUN pip install paho-mqtt
 
 COPY resol_mqtt.py /app/resol_mqtt.py
 COPY run.sh /app/run.sh
