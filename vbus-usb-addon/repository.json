@@ -1,0 +1,14 @@
+{
+  "name": "VBus USB Add-on Repository",
+  "url": "https://github.com/tschuemperlin/vbus-usb-addon",
+  "maintainer": "Bruno",
+  "addons": [
+    {
+      "slug": "vbus-usb",
+      "name": "VBus USB Reader",
+      "description": "Reads Resol VBus data from USB and publishes via MQTT",
+      "repository": "local",
+      "url": "https://github.com/tschuemperlin/vbus-usb-addon"
+    }
+  ]
+}
