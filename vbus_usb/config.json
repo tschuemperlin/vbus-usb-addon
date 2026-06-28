@@ -12,8 +12,8 @@
     "baudrate": 9600,
     "mqtt_host": "homeassistant",
     "mqtt_port": 1883,
-    "mqtt_user": "homeassistant",
-    "mqtt_pass": "meinMQTTpasswort123"
+    "mqtt_user": "",
+    "mqtt_pass": ""
   },
   "schema": {
     "device": "str",
