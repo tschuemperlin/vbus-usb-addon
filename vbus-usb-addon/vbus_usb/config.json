@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "slug": "vbus_usb",
   "description": "Reads Resol VBus data from USB and publishes via MQTT",
-  "arch": ["aarch64"],
   "startup": "services",
   "boot": "auto",
   "host_network": true,
@@ -12,11 +11,5 @@
     "baudrate": 9600,
     "mqtt_host": "homeassistant",
     "mqtt_port": 1883
-  },
-  "schema": {
-    "device": "str",
-    "baudrate": "int",
-    "mqtt_host": "str",
-    "mqtt_port": "int"
   }
 }
