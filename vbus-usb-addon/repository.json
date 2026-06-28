@@ -1,7 +1,7 @@
 {
-  "name": "VBus USB Add-on Repository",
+  "name": "VBus USB Add-on",
   "url": "https://github.com/tschuemperlin/vbus-usb-addon",
-  "maintainer": "Bruno",
+  "maintainer": "tschuemperlin",
   "addons": [
     {
       "slug": "vbus-usb",
