@@ -8,3 +8,6 @@ Supports:
 
 MQTT Topics:
 - resol/midi_pro/raw
+
+
+Version: 1.0.2
