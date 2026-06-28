@@ -1,10 +1,21 @@
 # VBus USB Reader Add-on
 
-Reads Resol VBus data from USB (FTDI) and publishes values via MQTT.
+Dieses Add-on liest Resol VBus Daten (Midi Pro) über USB (`/dev/ttyUSB0`)
+und veröffentlicht sie via MQTT für Home Assistant.
 
-Supports:
-- Resol Midi Pro (0x6610)
-- VBus USB Adapter
+## Konfiguration
 
-MQTT Topics:
-- resol/midi_pro/raw
+- `device`: Pfad zum USB-Gerät (Standard: `/dev/ttyUSB0`)
+- `baudrate`: Baudrate (Standard: `9600`)
+- `mqtt_host`: MQTT Broker Host (Standard: `homeassistant`)
+- `mqtt_port`: MQTT Broker Port (Standard: `1883`)
+
+## MQTT Topics
+
+Die Daten werden unter `resol/midi_pro/` veröffentlicht, z. B.:
+
+- `resol/midi_pro/temp_1`
+- `resol/midi_pro/temp_2`
+- `resol/midi_pro/speed_1`
+- `resol/midi_pro/irradiation`
+- `resol/midi_pro/relay_1`
